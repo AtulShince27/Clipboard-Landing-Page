@@ -1,0 +1,105 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+} 
+p{
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.home-page{
+    height: 100vh;
+    text-align: center;
+}
+.home-page .intro-text{
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 30%;
+}
+.intro-text h1{
+    font-weight: 600;
+}
+.intro-text p{
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.home-page .download-btn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+#macDownload{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4.5px 7.5px 0 hsl(223, 44%, 47%);
+}
+#iosDownload{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4.5px 7.5px 0 hsl(171, 66%, 27%);
+}
+.home-page .product-description{
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 30%;
+}
+.product-description h2{
+    font-weight: 600;
+}
+.benefits-page{
+    height: 100vh;
+}
+.benefits-page .row{
+    width: 80%;
+    margin-left: 10%;
+}
+.benefits-page .text-content{
+    padding: 4rem 2rem;
+}
+.text-content h4{
+    font-weight: 500;
+}
+.text-content p{
+    margin-bottom: 3rem;
+}
+.access-page{
+    height: 80vh;
+    text-align: center;
+}
+.row{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 7.5rem;
+}
+.access-page h2{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.access-page img{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.properties-page{
+    text-align: center;
+    height: 80vh;
+}
+.properties-page img{
+    margin-bottom: 1rem;
+}
+.properties-page .company-grid{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
